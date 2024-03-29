@@ -1,0 +1,88 @@
+#gamezone{
+    border: 1px;
+    background: rgb(64, 13, 217);
+    background: linear-gradient(90deg, rgba(64, 13, 217, 0.719) 0%, rgba(10, 222, 255, 0.699) 100%);
+    width: 970px;
+    height: 490px;
+}
+.character{
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    border-radius: 20px;
+    border: none;
+    background-image:url("gojo.jpg");
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+.suguru{
+    border-radius: 20px;
+    border: none;
+    background-image:url("suguru.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.hidden{
+    display: none;
+}
+.visible{
+    display: block;
+}
+body{
+    background-image:url(Tokyo_magic_school_Anime.png);
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-shadow: -5px 0px 5px rgb(0, 0, 0);
+    font-size: 65px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    margin-left: 350px;
+    margin-bottom:20px;
+    font-size: 35px;
+    width: 300px;
+    height: 60px;
+}
+input:hover{
+    background-color: rgb(23, 103, 173);
+    cursor: pointer;
+}
+.character:hover{
+    cursor: pointer;
+    scale: 0.95;
+}
+p{
+    text-shadow: 1px 0px 5px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+.kolb{
+    display: flex;
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 0px 5px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+h2{
+    margin: 0px;
+    padding: 0px;
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 0px 5px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
